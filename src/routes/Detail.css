@@ -1,0 +1,51 @@
+.detail .detail__genres {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin: 2;
+  margin-right: 10px;
+}
+.detail__genre {
+  font-weight: 600;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.detail__genres {
+  font-weight: 600;
+  white-space: nowrap;
+}
+.detail {
+  padding-left: 23vw;
+  padding-top: 15vh;
+}
+
+.detail__flex__2 {
+  width: 60vw;
+}
+.detail__summary {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+@media (max-width: 800) {
+  .detail__summary {
+    white-space: nowrap;
+  }
+}
+.detail__title {
+  white-space: nowrap;
+  font-size: 1.8em;
+}
+.detail__year {
+  font-size: 1.2em;
+  font-weight: 620;
+  margin-bottom: 1rem;
+}
+.genres li,
+.movie .movie__year {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.detail__trailer {
+  font-weight: 600;
+}
