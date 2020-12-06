@@ -40,6 +40,7 @@ class Home extends React.Component {
                 summary={movie.summary}
                 poster={movie.medium_cover_image}
                 genres={movie.genres}
+                yt_link={`https://www.youtube.com/watch?v=${movie.yt_trailer_code}`}
               />
             ))}
           </div>

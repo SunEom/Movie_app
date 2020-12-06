@@ -49,3 +49,7 @@
 .detail__trailer {
   font-weight: 600;
 }
+
+.detail__yt_link {
+  margin-left: 6px;
+}

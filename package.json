@@ -19,7 +19,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "clean" : "rm -rf node_modules/gh-pages/.cache"
   },
   "eslintConfig": {
     "extends": [
